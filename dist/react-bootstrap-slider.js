@@ -1,8 +1,8 @@
 (function (global, factory) {
     if (typeof define === "function" && define.amd) {
-        define(["exports", "react", "react-dom", "bootstrap-slider", "es6bindall"], factory);
+        define(["exports", "react", "react-dom", "yw-bootstrap-slider", "es6bindall"], factory);
     } else if (typeof exports !== "undefined") {
-        factory(exports, require("react"), require("react-dom"), require("bootstrap-slider"), require("es6bindall"));
+        factory(exports, require("react"), require("react-dom"), require("yw-bootstrap-slider"), require("es6bindall"));
     } else {
         var mod = {
             exports: {}

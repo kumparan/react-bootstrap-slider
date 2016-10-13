@@ -2,7 +2,7 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import Slider from "bootstrap-slider";
+import Slider from "yw-bootstrap-slider";
 import es6BindAll from "es6bindall";
 // import { isPropNumberOrArray } from "./customproptypes.js";
 
