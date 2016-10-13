@@ -7,10 +7,10 @@
         var mod = {
             exports: {}
         };
-        factory(mod.exports, global.react, global.reactDom, global.bootstrapSlider, global.es6bindall);
+        factory(mod.exports, global.react, global.reactDom, global.ywBootstrapSlider, global.es6bindall);
         global.reactBootstrapSlider = mod.exports;
     }
-})(this, function (exports, _react, _reactDom, _bootstrapSlider, _es6bindall) {
+})(this, function (exports, _react, _reactDom, _ywBootstrapSlider, _es6bindall) {
     "use strict";
 
     Object.defineProperty(exports, "__esModule", {
@@ -22,7 +22,7 @@
 
     var _reactDom2 = _interopRequireDefault(_reactDom);
 
-    var _bootstrapSlider2 = _interopRequireDefault(_bootstrapSlider);
+    var _ywBootstrapSlider2 = _interopRequireDefault(_ywBootstrapSlider);
 
     var _es6bindall2 = _interopRequireDefault(_es6bindall);
 
@@ -131,7 +131,7 @@
                     "tooltip": this.props.tooltip || "show"
                 });
 
-                this.mySlider = new _bootstrapSlider2.default(_reactDom2.default.findDOMNode(this), sliderAttributes);
+                this.mySlider = new _ywBootstrapSlider2.default(_reactDom2.default.findDOMNode(this), sliderAttributes);
 
                 this.updateSliderValues();
                 if (this.props.change || this.props.handleChange) {
